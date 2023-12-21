@@ -27,22 +27,22 @@ Each CSV file within the dataset consists of two essential fields:
 
 a. question: This field contains the actual question that the dataset is centered around.
 
-b. context_Prompt: The context field is followed by the respective prompt (long, short, or without prompt), providing additional context for understanding the given question.
+b. context_prompt: The context field is followed by the respective prompt (long, short, or without prompt), providing additional context for understanding the given question.
 
 ## File Descriptions
 
 1. QAG_Train_Long.csv
    
-This file is tailored for training scenarios where long prompts are utilized to enhance the context of the questions. The "context_Prompt" field in this CSV file contains the context followed by the long prompt associated with each question.
+This file is tailored for training scenarios where long prompts are utilized to enhance the context of the questions. The "context_prompt" field in this CSV file contains the context followed by the long prompt associated with each question.
 
 
 2. QAG_Train_Short.csv
    
-In this file, the training dataset is configured for scenarios where short prompts are employed. The "context_Prompt" field contains the concise prompt following the context for each question.
+In this file, the training dataset is configured for scenarios where short prompts are employed. The "context_prompt" field contains the concise prompt following the context for each question.
 
 3. QAG_Train_wop.csv
    
-For scenarios without any prompts, this file provides a dataset that focuses solely on the question and its context without any additional prompts. The "context_Prompt" field in this CSV file contains only the context relevant to each question.
+For scenarios without any prompts, this file provides a dataset that focuses solely on the question and its context without any additional prompts. The "context_prompt" field in this CSV file contains only the context relevant to each question.
 
 ## Contact Information
 For any questions, concerns, or feedback regarding the dataset, please contact us at [subhankar.ai@kgpian.iitkgp.ac.in].
