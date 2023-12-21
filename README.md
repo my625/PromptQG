@@ -27,7 +27,7 @@ Each CSV file within the dataset consists of two essential fields:
 
 a. question: This field contains the actual question that the dataset is centered around.
 
-b. context_prompt: The context field is followed by the respective prompt (long, short, or without prompt), providing additional context for understanding the given question.
+b. context_prompt: The context field is followed by the respective prompt (long, short, or without prompt).
 
 ## File Descriptions
 
